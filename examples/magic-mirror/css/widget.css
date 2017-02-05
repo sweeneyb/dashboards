@@ -1,0 +1,51 @@
+#widget{
+    position: absolute;
+    width:310px;
+    height:160px;
+    margin:0 auto;
+    top:50%;
+    left:50%;
+    margin-left:-180px;
+    margin-top:-100px;
+    padding:2px;
+    border:1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#location{
+    margin-top:0px;
+    padding:5px 0px 0px 10px;
+}
+.forecast{
+    margin-top:0px;
+    padding:0px;
+}
+#temp{
+    margin-top:0px;
+    text-align:left;
+    padding:0px 0px 0px 25px;
+    width:75px;
+}
+#condition{
+    position:absolute;
+    width:75px;
+    float:right;
+    margin:-30px 15px 20px 105px;
+    font-size:13px;
+}
+.forecast_section{
+    text-align:center;
+    list-style: none;
+    margin: 10px 3.5px 0px 2.3px;
+    padding-top:20px;
+    float:left;
+    width:55px;
+    height:55px;
+    font-size: 10px;
+    border-right: 1px dotted black;
+}
+#last_section{
+    border-right:none;
+}
+
+
