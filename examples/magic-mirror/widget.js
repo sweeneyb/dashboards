@@ -24,9 +24,9 @@
     var content = '<h3 id="location">'+location.city+','+location.region+'</h3>';
         content+= '<span><h1 id="temp">'+temperature+'&deg'+'</h1><p id="condition">'+condition+'</p></span>';
         content+='<ul class="forecast">';
-content+= '<li class="forecast_section">'+forecast[0].day+' '+forecast[0].high+'&deg'+'/<br/>'+forecast[0].low+'&deg'+'</li>';
-        /*content+= '<li class="forecast_section">'+forecast[1].day+' '+forecast[1].high+'&deg'+'/'+forecast[1].low+'&deg'+'</li>';
-        content+= '<li class="forecast_section">'+forecast[2].day+' '+forecast[2].high+'&deg'+'/'+forecast[2].low+'&deg'+'</li>';
+content+= '<li class="forecast_section">'+forecast[0].day+' '+forecast[0].high+'&deg'+'/'+forecast[0].low+'&deg'+'</li>';
+        content+= '<li class="forecast_section">'+forecast[1].day+' '+forecast[1].high+'&deg'+'/'+forecast[1].low+'&deg'+'</li>';
+        /*content+= '<li class="forecast_section">'+forecast[2].day+' '+forecast[2].high+'&deg'+'/'+forecast[2].low+'&deg'+'</li>';
         content+= '<li class="forecast_section">'+forecast[3].day+' '+forecast[3].high+'&deg'+'/'+forecast[3].low+'&deg'+'</li>';
         content+= '<li class="forecast_section" id="last_section">'+forecast[4].day+' '+forecast[4].high+'&deg'+'/'+forecast[4].low+'&deg'+'</li>';*/
         content+='</ul>';
